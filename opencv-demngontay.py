@@ -19,7 +19,7 @@ for i in lst:
     image = cv2.imread(f"{FolderPath}/{i}")
     # print(f"{FolderPath}/{i}")
     lst_2.append(image)
-# print(len(lst_2))
+# print(len(lst_2)) --> 6
 pTime = 0  # khai báo điểm bắt đầu
 
 detector = htm.handDetector(detectionCon=0.75)  # 0.55 độ chính xác 55%
@@ -73,7 +73,7 @@ while True:
 
     # trả về số giây, tính từ 0:0:00 ngày 1/1/1970 theo giờ  utc , gọi là(thời điểm bắt đầu thời gian)
     cTime = time.time()
-    # tính fps Frames per second - đây là  chỉ số khung hình trên mỗi giây
+    # tính fps Frames per second - đây là chỉ số khung hình trên mỗi giây
     fps = 1/(cTime-pTime)
     pTime = cTime
     # print(type(fps))

@@ -23,6 +23,7 @@
 
 ## 📁 Cấu trúc thư mục
 
+```bash
 finger-counter/
 ├── finger/
 │ └── Fingers/ # Chứa ảnh minh họa từ 0 đến 5 ngón tay
@@ -30,6 +31,7 @@ finger-counter/
 ├── opencv-demnontay.py # Tệp chính chạy ứng dụng
 ├── README.md
 └── .gitignore
+```
 
 ## ⚙️ Cài đặt
 
